@@ -8,8 +8,8 @@ I use these dotfiles on both Linux Mint and Arch Linux. If you have trouble, it'
 ### Showcase
 
 <details>
-<summary>Images<summary/>
-
+<summary>Images</summary>
+  
 _Lockscreen_
 ![lockscreen img](resources/lockscreen.png)
 
@@ -24,11 +24,10 @@ _rofi pywal16 colored_
 
 </details>
 
-
 <details>
-<summary>Videos<summary/>
+<summary>Videos</summary>
 
-TODO
+https://github.com/user-attachments/assets/ae01c50e-aee5-47a1-b5e5-d42611060cd9
 
 </details>
 
