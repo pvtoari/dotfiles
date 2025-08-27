@@ -1,0 +1,7 @@
+.vscode
+.history
+.config/swaylock/*.png
+.config/swaylock/*.jpg
+.config/hypr/*.png
+.config/hypr/*.jpg
+.config/hypr/*.mp4
