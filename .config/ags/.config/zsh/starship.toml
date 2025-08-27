@@ -1,0 +1,51 @@
+format = """
+╭────┤$os├──┤\
+$directory\
+$git_branch$git_status├$fill┤$cmd_duration$time├──┤$character├──┤
+╰─ 
+"""
+
+
+[fill]
+symbol = "─"
+
+[character]
+format="[ $symbol ]($style)"
+success_symbol = "[](bold green)"
+error_symbol = "[](bold red)"
+vimcmd_symbol = "[N](bold green)"
+vimcmd_replace_one_symbol = "[R](bold green)"
+vimcmd_replace_symbol = "[R](bold green)"
+vimcmd_visual_symbol = "[V](bold green)"
+
+[os]
+disabled = false
+format="[ $symbol ]($style)"
+
+[os.symbols]
+Arch = "󰣇"
+
+[directory]
+format = "[ $path ]($style)"
+truncation_length = 2
+truncation_symbol = "…/"
+
+[directory.substitutions]
+"~/Documents" = "󰈙 "
+"~/Downloads" = " "
+"~/Music" = " "
+"~/Pictures" = " "
+"~" = " "
+
+
+[time]
+disabled = false
+time_format = "%T"
+format = '[  $time ]($style)'
+
+[cmd_duration]
+disabled = false
+show_milliseconds = true
+min_time = 0
+format = '[ 󱦟 $duration ]($style)'
+
