@@ -10,8 +10,16 @@ I use these dotfiles on both Linux Mint and Arch Linux. If you have trouble, it'
 <details>
 <summary>Images<summary/>
 
+_Lockscreen_
+![lockscreen img](resources/lockscreen.png)
+
+_Empty desktop_
 ![desktop img](resources/desktop.png)
+
+_fastfetch + vscode pywal16 colored_
 ![terminal img](resources/terminal.png)
+
+_rofi pywal16 colored_
 ![rofi img](resources/rofi.png)
 
 </details>
@@ -44,6 +52,7 @@ TODO
 - **Upper bar**: [ags v1.9.0](https://github.com/JaKooLit/ags_v1.9.0)
 - **Animated wallpaper**: [mpvpaper](https://github.com/GhostNaN/mpvpaper)
 - **Animated dynamic color generation**: [mpvpaper-stop (pywal branch)](https://github.com/pvtoari/mpvpaper-stop)
+- **Screenshots and video recording**: [grim](https://github.com/emersion/grim) + [slurp](https://github.com/emersion/slurp) + [wl-clipboard](https://github.com/bugaevc/wl-clipboard) + [wf-recorder](https://github.com/ammen99/wf-recorder)
 
 ### Special Thanks
 - [kotontrion](https://github.com/kotontrion) - for the current ags config and README format inspiration
