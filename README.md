@@ -36,7 +36,7 @@ https://github.com/user-attachments/assets/ae01c50e-aee5-47a1-b5e5-d42611060cd9
 #### Core
 - **OS**: Linux Mint / Arch Linux
 - **Window manager**: [Hyprland](https://github.com/hyprwm/Hyprland)
-- **Font**: JetBrains Mono
+- **Font**: JetBrains Mono Nerd
 - **Color generation**: [pywal16](https://github.com/eylles/pywal16)
 
 #### Theming
@@ -44,15 +44,16 @@ https://github.com/user-attachments/assets/ae01c50e-aee5-47a1-b5e5-d42611060cd9
 - **Icon Theme**: [WhiteSur-icon-theme](https://github.com/vinceliuice/WhiteSur-icon-theme)
 
 #### Applications
-- **Terminal**: [fish](https://github.com/fish-shell/fish-shell) + [foot](https://codeberg.org/dnkl/foot)
+- **Terminal**: [fish](https://github.com/fish-shell/fish-shell) + [kitty](https://github.com/kovidgoyal/kitty)
 - **Launcher**: [rofi](https://github.com/davatorium/rofi)
 - **Lock screen**: [swaylock](https://github.com/swaywm/swaylock)
 - **Logout menu**: [wlogout](https://github.com/ArtsyMacaw/wlogout)
-- **Upper bar**: [ags v1.9.0](https://github.com/JaKooLit/ags_v1.9.0)
+- **Upper bar**: [waybar-cava](https://aur.archlinux.org/packages/waybar-cava)
 - **Animated wallpaper**: [mpvpaper](https://github.com/GhostNaN/mpvpaper)
-- **Animated dynamic color generation**: [mpvpaper-stop (pywal branch)](https://github.com/pvtoari/mpvpaper-stop)
+- **Animated dynamic color generation**: [mpvpaper-stop](https://github.com/pvtoari/mpvpaper-stop)
 - **Screenshots and video recording**: [grim](https://github.com/emersion/grim) + [slurp](https://github.com/emersion/slurp) + [wl-clipboard](https://github.com/bugaevc/wl-clipboard) + [wf-recorder](https://github.com/ammen99/wf-recorder)
 
 ### Special Thanks
-- [kotontrion](https://github.com/kotontrion) - for the current ags config and README format inspiration
+- [kotontrion](https://github.com/kotontrion) - for the old ags config and README format inspiration
+- [OriginCode](https://github.com/OriginCode) - for the waybar config inspiration
 - [end-4](https://github.com/end-4) - for continuous work on dotfiles and window rules config that inspired my minimal approach
