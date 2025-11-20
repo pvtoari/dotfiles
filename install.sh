@@ -9,6 +9,8 @@ sudo pacman -S jq
 sudo pacman -S wf-recorder
 sudo pacman -S swaylock
 sudo pacman -S waybar
+sudo pacman -S tesseract
+sudo pacman -S tesseract-data-eng
 
 yay -S python-pywal16
 yay -S arrpc
@@ -25,3 +27,5 @@ tide configure --auto --style=Rainbow --prompt_colors='True color' \
 yay -S mpvpaper
 yay -S mpvpaper-stop-git
 yay -S waybar-cava
+
+cp -vr .config ~/
