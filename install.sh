@@ -28,4 +28,10 @@ yay -S mpvpaper
 yay -S mpvpaper-stop-git
 yay -S vicinae
 
+# store extensions from .config/vicinae/extensions.txt
+while read -r ext; do
+	case "$ext" in \#*|"") continue ;; esac
+	vicinae extension install "$ext" || echo "could not install $ext"
+done < .config/vicinae/extensions.txt
+
 cp -vr .config ~/

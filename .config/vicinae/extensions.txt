@@ -1,0 +1,7 @@
+# vicinae store extensions
+# install with: vicinae extension install <id>  (raycast: prefix = raycast store)
+Gelei/bluetooth
+dagimg-dot/gnome-settings
+dagimg-dot/wifi-commander
+sovereign/hypr-keybinds
+raycast:josephschmitt/gif-search
