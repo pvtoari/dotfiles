@@ -156,6 +156,13 @@ hl.window_rule({
     size = { 0.6, 0.65 },
 })
 
+hl.window_rule({
+    match = {
+        title = ".*SSH Passphrase*",
+    },
+    float = true,
+})
+
 -- Picture-in-Picture
 hl.window_rule({
     match = {

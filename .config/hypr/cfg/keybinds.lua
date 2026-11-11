@@ -5,6 +5,7 @@ local menu = "vicinae vicinae://toggle"
 local windows = "vicinae vicinae://launch/wm/switch-windows"
 local clipboard = "vicinae vicinae://launch/clipboard/history"
 local emoji = "vicinae vicinae://launch/core/search-emojis"
+local gifs = "vicinae vicinae://extensions/josephschmitt/gif-search/search"
 
 hl.bind(mainMod .. " + T", hl.dsp.exec_cmd(terminal))
 hl.bind(mainMod .. " + Q", hl.dsp.window.close())
@@ -21,6 +22,7 @@ hl.bind("Ctrl+Alt + Delete", hl.dsp.exec_cmd("wlogout --protocol layer-shell"))
 hl.bind(mainMod .. " + L", hl.dsp.exec_cmd("~/.config/swaylock/lock.sh"))
 hl.bind(mainMod .. " + I", hl.dsp.exec_cmd("XDG_CURRENT_DESKTOP=gnome gnome-control-center"))
 hl.bind(mainMod .. " + period", hl.dsp.exec_cmd(emoji))
+hl.bind(mainMod .. " + comma", hl.dsp.exec_cmd(gifs))
 hl.bind(mainMod .. " + W", hl.dsp.exec_cmd("pkill waybar; hyprctl dispatch exec waybar"))
 hl.bind(mainMod .. " + N", hl.dsp.exec_cmd("swaync-client -t"))
 
@@ -68,7 +70,7 @@ hl.bind("Print", hl.dsp.exec_cmd('grim -o "$(hyprctl -j activeworkspace | jq -r 
 hl.bind("Ctrl+Super+Shift + S", hl.dsp.exec_cmd('grim -g "$(slurp)" "tmp.png" && tesseract "tmp.png" - | wl-copy && rm "tmp.png"'))
 hl.bind("Super+Shift+Alt + S", hl.dsp.exec_cmd('grim -g "$(slurp)" - | swappy -f -'))
 hl.bind(mainMod .. " + SHIFT + S", hl.dsp.exec_cmd('grim -g "$(slurp)" - | wl-copy'))
-hl.bind(mainMod .. " + R", hl.dsp.exec_cmd('pkill -SIGINT -x wf-recorder || wf-recorder -o "$(hyprctl -j activeworkspace | jq -r \'.monitor\')" -f $HOME/Videos/recording-$(date +%Y%m%d-%H%M%S).mp4'))
+hl.bind(mainMod .. " + R", hl.dsp.exec_cmd('pkill -SIGINT -x wf-recorder || wf-recorder --audio -o "$(hyprctl -j activeworkspace | jq -r \'.monitor\')" -f $HOME/Videos/recording-$(date +%Y%m%d-%H%M%S).mp4'))
 hl.bind(mainMod .. " + SHIFT + R", hl.dsp.exec_cmd('pkill -SIGINT -x wf-recorder || wf-recorder -g "$(slurp)" -f $HOME/Videos/recording-$(date +%Y%m%d-%H%M%S).mp4'))
 
 hl.bind("Alt+Shift + V", hl.dsp.exec_cmd('ydotool type "$(wl-paste)"'))
