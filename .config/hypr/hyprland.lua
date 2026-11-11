@@ -1,0 +1,10 @@
+require("cfg.envs")
+require("cfg.rules")
+require("cfg.monitors")
+require("cfg.general")
+require("cfg.keybinds")
+require("cfg.execs")
+
+hl.on("hyprland.start", function()
+    hl.dispatch(hl.dsp.workspace.move({ workspace = 1 }))
+end)

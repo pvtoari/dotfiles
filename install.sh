@@ -26,6 +26,6 @@ tide configure --auto --style=Rainbow --prompt_colors='True color' \
 
 yay -S mpvpaper
 yay -S mpvpaper-stop-git
-yay -S waybar-cava
+yay -S vicinae
 
 cp -vr .config ~/

@@ -1,0 +1,8 @@
+hl.on("hyprland.start", function()
+    hl.exec_cmd("hyprctl setcursor Bibata-Modern-Classic 24")
+    hl.exec_cmd("waybar")
+    hl.exec_cmd("swaync")
+    hl.exec_cmd("mpvpaper ALL -f -o \"no-audio input-ipc-server=/tmp/mpvsocket --loop-playlist shuffle\" $HOME/.config/hypr/bg.mp4 && mpvpaper-stop -t 100")
+    hl.exec_cmd("/usr/lib/hyprpolkitagent/hyprpolkitagent")
+    hl.exec_cmd("vicinae server")
+end)

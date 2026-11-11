@@ -45,10 +45,10 @@ https://github.com/user-attachments/assets/ae01c50e-aee5-47a1-b5e5-d42611060cd9
 
 #### Applications
 - **Terminal**: [fish](https://github.com/fish-shell/fish-shell) + [kitty](https://github.com/kovidgoyal/kitty)
-- **Launcher**: [rofi](https://github.com/davatorium/rofi)
+- **Launcher**: [vicinae](https://github.com/vicinaehq/vicinae)
 - **Lock screen**: [swaylock](https://github.com/swaywm/swaylock)
 - **Logout menu**: [wlogout](https://github.com/ArtsyMacaw/wlogout)
-- **Upper bar**: [waybar-cava](https://aur.archlinux.org/packages/waybar-cava)
+- **Upper bar**: [waybar](https://github.com/Alexays/Waybar)
 - **Animated wallpaper**: [mpvpaper](https://github.com/GhostNaN/mpvpaper)
 - **Animated dynamic color generation**: [mpvpaper-stop](https://github.com/pvtoari/mpvpaper-stop)
 - **Screenshots and video recording**: [grim](https://github.com/emersion/grim) + [slurp](https://github.com/emersion/slurp) + [wl-clipboard](https://github.com/bugaevc/wl-clipboard) + [wf-recorder](https://github.com/ammen99/wf-recorder)
