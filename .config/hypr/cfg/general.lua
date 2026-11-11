@@ -87,14 +87,10 @@ hl.config({
         enabled = true,
     },
     dwindle = {
-        pseudotile = true,
         preserve_split = true,
     },
     master = {
         new_status = "master",
-    },
-    gestures = {
-        workspace_swipe = false,
     },
     misc = {
         force_default_wallpaper = 0,
